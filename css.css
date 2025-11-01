@@ -2,6 +2,8 @@
 
 body {
     background-image: url(imgs/fundo.jpeg);
+    background-size: cover;
+    margin: 0;
 }
 .strip {
     width: 100%;
@@ -9,6 +11,8 @@ body {
     background-color: #5e5e5e;
     margin: auto;
     display: flex;
+    position: sticky;
+    top: 0;
 }
 .principal{
     font-size: 40px;
@@ -56,10 +60,22 @@ body {
 }
 .textos{
     color: #fff;
-    font-size: 25px;
-    margin: 200px;
+    font-size: 26px;
+    margin: 150px;
     margin-top: 75px;
     margin-bottom: 100px;
     text-align: justify;
     font-family: 'Playfair Display', serif;
+}
+p{
+ color: #fff;
+    font-size: 26px;
+    margin: 150px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: justify;
+    font-family: 'Playfair Display', serif;   
+}
+img{
+    margin: 10px;
 }
